@@ -30,6 +30,7 @@ img {
 
 .fixed {
   position: fixed;
+  width: 650px;
 }
 
 .section {
@@ -38,7 +39,7 @@ img {
   height: 400px;
 }
 
-.section-one {
+/* .section-one {
   background: lightblue;
 }
 
@@ -48,12 +49,19 @@ img {
 
 .section-three {
   background: pink;
-}
+} */
 
 .mt-8 {
   margin-top: 240px;
 }
 
 .invisible {
+  visibility: hidden;
+}
+
+#pixel-to-watch-one, #pixel-to-watch-two, #pixel-to-watch-three {
+  width: 10px;
+  height: 10px;
+  background: green;
   visibility: hidden;
 }
